@@ -279,7 +279,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.name {
+.name-team {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -449,6 +449,9 @@ img {
   max-width: 264px;
 }
 
+.footer-icons {
+  margin-right: 80px;
+}
 .footer-social {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -488,4 +491,58 @@ img {
 }
 .footer-icon {
   fill: #f4f4fd;
+}
+
+.form {
+  display: flex;
+  gap: 24px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  gap: 16px;
+}
+
+.form-input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+}
+.form-input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  background-color: #4d5ae5;
+  ont-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+}
+
+.form-icon {
+  fill: #fff;
 }
