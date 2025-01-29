@@ -624,6 +624,9 @@ img {
   padding-top: 24px;
 }
 
+.modal-field {
+  margin-bottom: 8px;
+}
 .modal-label {
   display: inline-block;
   font-weight: 400;
